@@ -1,0 +1,6 @@
+framework module Pods_CRLCarts {
+  umbrella header "Pods-CRLCarts-umbrella.h"
+
+  export *
+  module * { export * }
+}
