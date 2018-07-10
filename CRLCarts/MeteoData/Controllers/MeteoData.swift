@@ -3,7 +3,7 @@ import UIKit
 import Charts
 import Alamofire
 
-class CRL_ChartViewController: UIViewController, ChartViewDelegate {
+class MeteoData: UIViewController, ChartViewDelegate {
     
     @IBOutlet weak var lineChartView: LineChartView!
     
@@ -136,7 +136,7 @@ class CRL_ChartViewController: UIViewController, ChartViewDelegate {
     }
 }
 
-extension CRL_ChartViewController: UITableViewDelegate, UITableViewDataSource {
+extension MeteoData: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
        return globalData.count

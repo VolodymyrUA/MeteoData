@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B3E6A202045D70200A0FB28 /* CRL_ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E6A1F2045D70200A0FB28 /* CRL_ChartViewController.swift */; };
+		1B3E6A202045D70200A0FB28 /* MeteoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E6A1F2045D70200A0FB28 /* MeteoData.swift */; };
 		1B65668D20F4D37C00F9F078 /* MeteoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B65668C20F4D37C00F9F078 /* MeteoCell.swift */; };
 		1BCCD93520459E1C00D3C4DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCD93420459E1C00D3C4DB /* AppDelegate.swift */; };
 		1BCCD93A20459E1C00D3C4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCD93820459E1C00D3C4DB /* Main.storyboard */; };
@@ -30,9 +30,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B3E6A1F2045D70200A0FB28 /* CRL_ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRL_ChartViewController.swift; sourceTree = "<group>"; };
+		1B3E6A1F2045D70200A0FB28 /* MeteoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoData.swift; sourceTree = "<group>"; };
 		1B65668C20F4D37C00F9F078 /* MeteoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoCell.swift; sourceTree = "<group>"; };
-		1BCCD93120459E1C00D3C4DB /* CRLCarts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRLCarts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCCD93120459E1C00D3C4DB /* MeteoData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteoData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCCD93420459E1C00D3C4DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCCD93920459E1C00D3C4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BCCD93B20459E1C00D3C4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		1B3E6A212045D72000A0FB28 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1B3E6A1F2045D70200A0FB28 /* CRL_ChartViewController.swift */,
+				1B3E6A1F2045D70200A0FB28 /* MeteoData.swift */,
 				1B65668C20F4D37C00F9F078 /* MeteoCell.swift */,
 			);
 			path = Controllers;
@@ -92,7 +92,7 @@
 		1BCCD92820459E1C00D3C4DB = {
 			isa = PBXGroup;
 			children = (
-				1BCCD93320459E1C00D3C4DB /* CRLCarts */,
+				1BCCD93320459E1C00D3C4DB /* MeteoData */,
 				1BCCD93220459E1C00D3C4DB /* Products */,
 				1B3E6A232046AC1600A0FB28 /* Frameworks */,
 				F7BC0265D63FB84BF9613482 /* Pods */,
@@ -102,12 +102,12 @@
 		1BCCD93220459E1C00D3C4DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BCCD93120459E1C00D3C4DB /* CRLCarts.app */,
+				1BCCD93120459E1C00D3C4DB /* MeteoData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BCCD93320459E1C00D3C4DB /* CRLCarts */ = {
+		1BCCD93320459E1C00D3C4DB /* MeteoData */ = {
 			isa = PBXGroup;
 			children = (
 				1B3E6A222045D73800A0FB28 /* Other */,
@@ -116,7 +116,7 @@
 				1BCCD93B20459E1C00D3C4DB /* Assets.xcassets */,
 				1BCCD94020459E1C00D3C4DB /* Info.plist */,
 			);
-			path = CRLCarts;
+			path = MeteoData;
 			sourceTree = "<group>";
 		};
 		F7BC0265D63FB84BF9613482 /* Pods */ = {
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BCCD93020459E1C00D3C4DB /* CRLCarts */ = {
+		1BCCD93020459E1C00D3C4DB /* MeteoData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCCD94320459E1C00D3C4DB /* Build configuration list for PBXNativeTarget "CRLCarts" */;
+			buildConfigurationList = 1BCCD94320459E1C00D3C4DB /* Build configuration list for PBXNativeTarget "MeteoData" */;
 			buildPhases = (
 				AAF17D204A0676A31BDD5E8C /* [CP] Check Pods Manifest.lock */,
 				1BCCD92D20459E1C00D3C4DB /* Sources */,
@@ -146,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = CRLCarts;
+			name = MeteoData;
 			productName = CRLCarts;
-			productReference = 1BCCD93120459E1C00D3C4DB /* CRLCarts.app */;
+			productReference = 1BCCD93120459E1C00D3C4DB /* MeteoData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BCCD92C20459E1C00D3C4DB /* Build configuration list for PBXProject "CRLCarts" */;
+			buildConfigurationList = 1BCCD92C20459E1C00D3C4DB /* Build configuration list for PBXProject "MeteoData" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BCCD93020459E1C00D3C4DB /* CRLCarts */,
+				1BCCD93020459E1C00D3C4DB /* MeteoData */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3E6A202045D70200A0FB28 /* CRL_ChartViewController.swift in Sources */,
+				1B3E6A202045D70200A0FB28 /* MeteoData.swift in Sources */,
 				1B65668D20F4D37C00F9F078 /* MeteoCell.swift in Sources */,
 				1BCCD93520459E1C00D3C4DB /* AppDelegate.swift in Sources */,
 			);
@@ -386,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W6QZF2EK2;
-				INFOPLIST_FILE = CRLCarts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MeteoData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ExportProfile.developerprofile.trying.CoreData.CRLCarts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W6QZF2EK2;
-				INFOPLIST_FILE = CRLCarts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MeteoData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ExportProfile.developerprofile.trying.CoreData.CRLCarts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,7 +414,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BCCD92C20459E1C00D3C4DB /* Build configuration list for PBXProject "CRLCarts" */ = {
+		1BCCD92C20459E1C00D3C4DB /* Build configuration list for PBXProject "MeteoData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCCD94120459E1C00D3C4DB /* Debug */,
@@ -423,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCCD94320459E1C00D3C4DB /* Build configuration list for PBXNativeTarget "CRLCarts" */ = {
+		1BCCD94320459E1C00D3C4DB /* Build configuration list for PBXNativeTarget "MeteoData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCCD94420459E1C00D3C4DB /* Debug */,
